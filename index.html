@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daily Deal$</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     
 </head>
 <body>
     <header>
-
+        <ul class="menu menu-horizontal bg-base-200">
+            <li><a>Tech</a></li>
+            <li><a>Food</a></li>
+            <li><a>Utilities</a></li>
+          </ul>
     </header>
 
     <main>
@@ -25,7 +31,11 @@
     </main>
 
     <footer>
-
+        <footer class="footer footer-center bg-base-300 text-base-content p-4">
+            <aside>
+              <p>Copyright © {new Date().getFullYear()} - All right reserved by Daily Deal$ Ltd</p>
+            </aside>
+          </footer>
     </footer>
 </body>
 </html>
